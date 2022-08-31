@@ -3,7 +3,8 @@ html,body{
 }
 
 body{
-    overflow: hidden;
+    overflow: hidden !important;
+    height: 100vh;
 }
 
 :root {
@@ -14,6 +15,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Anek Telugu', sans-serif;
+    overflow: hidden !important;
 }
 
 a{
